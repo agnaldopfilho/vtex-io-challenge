@@ -1,0 +1,11 @@
+.logoContainer--logo-mobile{
+    padding: 0;
+}
+.logoImage--logo-mobile{
+    width: 102,46px;
+    height: 25px;
+}
+.searchBarInnerContainer--search-bar-mobile{
+    border-bottom: 2px solid black;
+    width: 280px;
+}

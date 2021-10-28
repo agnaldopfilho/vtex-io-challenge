@@ -1,0 +1,13 @@
+:global(.vtex-input-prefix__group){
+    border-radius: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+:global(.vtex-input__suffix){
+    padding: 0;
+}
+:global(.vtex-button){
+    border: none;
+    border-radius: 5px;
+}

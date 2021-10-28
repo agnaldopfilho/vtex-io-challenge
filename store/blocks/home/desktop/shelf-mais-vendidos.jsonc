@@ -1,0 +1,77 @@
+{
+    "responsive-layout.desktop#products-mais-vendidos-desktop": {
+        "children": [
+            "rich-text#title-mais-vendidos-desktop",
+            "flex-layout.row#products-mais-vendidos-desktop"
+        ]
+    },
+    "rich-text#title-mais-vendidos-desktop": {
+        "props": {
+            "text": "### Mais Vendidos",
+            "blockClass": "title-mais-vendidos-desktop"
+        }
+    },
+    "flex-layout.row#products-mais-vendidos-desktop": {
+        "children": [
+            "list-context.product-list#mais-vendidos-desktop"
+        ],
+        "props": {
+            "blockClass": "products-mais-vendidos-desktop"
+        }
+    },
+    "list-context.product-list#mais-vendidos-desktop": {
+        "blocks": [
+            "product-summary.shelf#mais-vendidos-desktop"
+        ],
+        "children": [
+            "slider-layout#slider-mais-vendidos-desktop"
+        ]
+    },
+    "product-summary.shelf#mais-vendidos-desktop": {
+        "children": [
+            "product-summary-image#desktop",
+            "flex-layout.col#info-product-desktop"
+        ]
+    },
+    "slider-layout#slider-mais-vendidos-desktop": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always",
+            "blockClass": "slider-mais-vendidos-desktop"
+        }
+    },
+    "product-summary-image#desktop": {
+        "props": {
+            "blockClass": "image-product-desktop"
+        }
+    },
+    "flex-layout.col#info-product-desktop": {
+        "children": [
+            "product-summary-name",
+            "image#rating-desktop",
+            "product-rating-inline",
+            "product-selling-price",
+            "add-to-cart-button#desktop"
+        ],
+        "props": {
+            "blockClass": "info-product-desktop"
+        }
+    },
+    "image#rating-desktop": {
+        "props": {
+            "src": "assets/imgs/rating.svg",
+            "blockClass": "rating"
+        }
+    },
+    "add-to-cart-button#desktop": {
+        "props": {
+            "text": "Comprar",
+            "blockClass": "add-to-cart-desktop"
+        }
+    }
+}

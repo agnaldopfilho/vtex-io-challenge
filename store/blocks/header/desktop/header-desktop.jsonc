@@ -1,0 +1,65 @@
+{
+    "header-layout.desktop": {
+        "children": [
+            "sticky-layout#desktop"
+        ]
+    },
+    "sticky-layout#desktop": {
+        "props": {
+            "blockClass": "sticky-header"
+        },
+        "children": [
+            "flex-layout.row#header-desktop"
+        ]
+    },
+    "flex-layout.row#header-desktop": {
+        "props": {
+            "blockClass": "main-header-desktop",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#logo-desktop",
+            "search-bar#desktop",
+            "login#desktop",
+            "minicart.v2#desktop"
+        ]
+    },
+    "flex-layout.col#logo-desktop": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "logo#desktop"
+        ]
+    },
+    "logo#desktop": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "assets/imgs/logo-corebiz-preto-cinza.svg",
+            "blockClass": "logo-desktop"
+        }
+    },
+    "search-bar#desktop": {
+      "props": {
+        "placeholder": "O que está procurando?",
+        "blockClass": "search-bar-desktop"
+      }
+    },
+    "login#desktop": {
+        "props": {
+            "showIconProfile": true,
+            "iconLabel": "Minha Conta",
+            "blockClass": "login-desktop"
+        }
+    },
+    "minicart.v2#desktop": {
+        "props": {
+            "blockClass": "minicart-desktop"
+        }
+    }
+}

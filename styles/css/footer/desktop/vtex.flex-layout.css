@@ -1,0 +1,17 @@
+.flexCol--col-location-desktop, .flexCol--col-contato-desktop{
+    width: max-content !important;
+}
+.flexCol--col-location-desktop{
+    padding-bottom: 28px;
+}
+.flexCol--col-contato-desktop{
+    width: max-content !important;
+    padding-top: 56px;
+}
+.flexColChild--col-contato-desktop{
+    height: 38px !important;
+    width: 195px !important;
+}
+.flexColChild--col-contato-desktop:nth-child(-n+1){
+    margin-bottom: 26px;
+}

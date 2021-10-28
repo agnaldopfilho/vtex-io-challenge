@@ -1,0 +1,98 @@
+{
+    "footer-layout.mobile": {
+        "children": [
+            "flex-layout.row#container-footer-mobile"
+        ]
+    },
+    "flex-layout.row#container-footer-mobile": {
+        "children": [
+            "flex-layout.col#footer-mobile"
+        ]
+    },
+    "flex-layout.col#footer-mobile": {
+        "children": [
+            "flex-layout.col#location-mobile",
+            "flex-layout.col#contato-mobile",
+            "image#logos-powered-by-mobile"
+        ],
+        "props": {
+            "blockClass": "footer-mobile"
+        }
+    },
+    "flex-layout.col#location-mobile": {
+        "children": [
+            "rich-text#location-title-mobile",
+            "rich-text#location-info-mobile"
+        ],
+        "props": {
+            "blockClass": "col-location-mobile"
+        }
+    },
+    "rich-text#location-title-mobile": {
+        "props": {
+            "text": "### Localização",
+            "blockClass": "title-location-mobile"
+        }
+    },
+    "rich-text#location-info-mobile": {
+        "props": {
+            "text": "#### Avenida Andrômeda, 2000. Bloco 6 e 8 \n #### Alphavile SP \n #### brasil@corebiz.ag \n #### +55 11 3090 1039",
+            "blockClass": "info-location-mobile"
+        }
+    },
+    "flex-layout.col#contato-mobile": {
+        "children": [
+            "link#contato-mobile",
+            "link#consultor-mobile"
+        ],
+        "props": {
+            "blockClass": "col-contato-mobile"
+        }
+    },
+    "link#contato-mobile": {
+        "children": [
+            "rich-text#text-contato-mobile"
+        ],
+        "props": {
+            "blockClass": "button-link-contato-mobile",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "regular"
+            },
+            "href": "/"
+        }
+    },
+    "link#consultor-mobile": {
+        "children": [
+            "rich-text#text-consultor-mobile"
+        ],
+        "props": {
+            "blockClass": "button-link-contato-mobile",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "regular"
+            },
+            "href": "/"
+        }
+    },
+    "rich-text#text-contato-mobile": {
+        "props": {
+            "text": "![Contato Icon](assets/imgs/footer/icon-contato.svg) ENTRE EM CONTATO",
+            "blockClass": "text-contato-mobile"
+        }
+    },
+    "rich-text#text-consultor-mobile": {
+        "props": {
+            "text": "![Consultor Icon](assets/imgs/footer/icon-consultor.svg) FALE COM O NOSSO \n CONSULTOR ONLINE",
+            "blockClass": "text-consultor-mobile"
+        }
+    },
+    "image#logos-powered-by-mobile": {
+        "props": {
+            "src": "assets/imgs/footer/logos.svg",
+            "blockClass": "logos-powered-by-mobile"
+        }
+    }
+}

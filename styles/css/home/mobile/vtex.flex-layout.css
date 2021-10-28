@@ -1,0 +1,18 @@
+.flexRowContent--products-mais-vendidos-mobile{
+    padding-bottom: 40px;
+}
+.flexColChild--info-product-mobile:nth-child(3n){
+    height: 0px !important;
+}
+.flexColChild--info-product-mobile:nth-child(4n){
+    margin-bottom: 9px;
+}
+.flexColChild--info-product-mobile:nth-child(5n){
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 140px;
+}
+.flexRow--container-newsletter-mobile{
+    background-color: #F2F2F2;
+    padding: 24px 16px 16px 16px;
+}

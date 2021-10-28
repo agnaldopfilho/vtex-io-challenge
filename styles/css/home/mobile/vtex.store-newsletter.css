@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.newsletterForm--newsletter-form--mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato';
+}
+.nameInputContainer--input-name-mobile, .emailInputContainer--input-email-mobile{
+    width: 100%;
+    height: 48px;
+}
+.nameInputContainer--input-name-mobile{
+    margin-top: 19px;
+}
+.emailInputContainer--input-email-mobile{
+    margin-top: 22px;
+}
+.formSubmitContainer--submit-mobile{
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.formSubmitContainer--submit-mobile :global(.vtex-button){
+    width: 100%;
+    min-height: 48px;
+    font-size: 14px;
+}

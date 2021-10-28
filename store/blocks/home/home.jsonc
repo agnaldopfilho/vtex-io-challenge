@@ -1,0 +1,12 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#banner-desktop",
+      "responsive-layout.mobile#banner-mobile",
+      "responsive-layout.desktop#products-mais-vendidos-desktop",
+      "responsive-layout.mobile#products-mais-vendidos-mobile",
+      "responsive-layout.desktop#newsletter-desktop",
+      "responsive-layout.mobile#newsletter-mobile"
+    ]
+  }
+}

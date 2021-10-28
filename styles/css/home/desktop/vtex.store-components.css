@@ -1,0 +1,16 @@
+.infoCardContainer--info-card-banner-desktop{
+    width: 100%;
+    height: 430px;
+}
+.wrapper--info-card-banner-desktop .paragraph{
+    font-size: 30px;
+    color: #fff;
+    line-height: 40.92px;
+    margin: 0;
+    font-weight: 700;
+}
+.wrapper--info-card-banner-desktop .paragraph .strong{
+    font-size: 45px;
+    line-height: 100%;
+    font-weight: 900;
+}

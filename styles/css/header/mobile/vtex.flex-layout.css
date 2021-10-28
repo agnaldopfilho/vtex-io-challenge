@@ -1,0 +1,16 @@
+.flexRowContent--main-header-mobile{
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+.flexRowContent--top-header-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    margin-top: 7px;
+}
+.flexRowContent--top-header-mobile .stretchChildrenWidth{
+    width: max-content !important;
+}

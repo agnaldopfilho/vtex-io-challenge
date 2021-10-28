@@ -1,0 +1,21 @@
+.flexCol--col-location-mobile, .flexCol--col-contato-mobile{
+    width: max-content !important;
+}
+.flexCol--col-location-mobile{
+    margin-left: 16px;
+}
+.flexCol--col-contato-mobile{
+    margin: 44px auto 24px auto;
+}
+.flexColChild--col-contato-mobile{
+    height: 38px !important;
+    width: 195px !important;
+}
+.flexColChild--col-contato-mobile:nth-child(-n+1){
+    margin-bottom: 26px;
+}
+.flexColChild--footer-mobile:nth-child(3n){
+    display: flex;
+    justify-content: center;
+    padding-bottom: 9px;
+}

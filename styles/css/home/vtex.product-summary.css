@@ -1,0 +1,10 @@
+.nameContainer{
+    padding: 0 4px;
+    margin-top: 7px;
+}
+.brandName{
+    color: #7A7A7A;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

@@ -1,0 +1,77 @@
+{
+    "responsive-layout.mobile#products-mais-vendidos-mobile": {
+        "children": [
+            "rich-text#title-mais-vendidos-mobile",
+            "flex-layout.row#products-mais-vendidos-mobile"
+        ]
+    },
+    "rich-text#title-mais-vendidos-mobile": {
+        "props": {
+            "text": "### Mais Vendidos",
+            "blockClass": "title-mais-vendidos-mobile"
+        }
+    },
+    "flex-layout.row#products-mais-vendidos-mobile": {
+        "children": [
+            "list-context.product-list#mais-vendidos-mobile"
+        ],
+        "props": {
+            "blockClass": "products-mais-vendidos-mobile"
+        }
+    },
+    "list-context.product-list#mais-vendidos-mobile": {
+        "blocks": [
+            "product-summary.shelf#mais-vendidos-mobile"
+        ],
+        "children": [
+            "slider-layout#slider-mais-vendidos-mobile"
+        ]
+    },
+    "product-summary.shelf#mais-vendidos-mobile": {
+        "children": [
+            "product-summary-image#mobile",
+            "flex-layout.col#info-product-mobile"
+        ]
+    },
+    "slider-layout#slider-mais-vendidos-mobile": {
+        "props": {
+            "itemsPerPage": {
+                "mobile": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "showPaginationDots": "always",
+            "showNavigationArrows": "never",
+            "blockClass": "slider-mais-vendidos-mobile"
+        }
+    },
+    "product-summary-image#mobile": {
+        "props": {
+            "blockClass": "image-product-mobile"
+        }
+    },
+    "flex-layout.col#info-product-mobile": {
+        "children": [
+            "product-summary-name",
+            "image#rating-mobile",
+            "product-rating-inline",
+            "product-selling-price",
+            "add-to-cart-button#mobile"
+        ],
+        "props": {
+            "blockClass": "info-product-mobile"
+        }
+    },
+    "image#rating-mobile": {
+        "props": {
+            "src": "assets/imgs/rating.svg",
+            "blockClass": "rating"
+        }
+    },
+    "add-to-cart-button#mobile": {
+        "props": {
+            "text": "Comprar",
+            "blockClass": "add-to-cart-mobile"
+        }
+    }
+}

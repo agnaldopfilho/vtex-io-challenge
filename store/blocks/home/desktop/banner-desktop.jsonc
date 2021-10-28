@@ -1,0 +1,79 @@
+{
+    "responsive-layout.desktop#banner-desktop":{
+        "children":[
+            "slider-layout#slider-banner-desktop"
+        ]
+    },
+    "slider-layout#slider-banner-desktop": {
+        "children": [
+            "info-card#banner-desktop1",
+            "info-card#banner-desktop2",
+            "info-card#banner-desktop3",
+            "info-card#banner-desktop4"
+        ],
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnhover": true
+            },
+            "showNavigationArrows": "never",
+            "blockClass": "slider-banner-desktop"
+        }
+    },
+    "info-card#banner-desktop1": {
+        "props": {
+            "id": "info-card-banner1",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/imgs/slide-banner/img1.jpeg",
+            "headline": "Olá, o que você está buscando?",
+            "subhead": "**Criar ou migrar seu e-commerce?**",
+            "callToActionMode": "none",
+            "textMode": "rich-text",
+            "blockClass": "info-card-banner-desktop"
+        }
+    },
+    "info-card#banner-desktop2": {
+        "props": {
+            "id": "info-card-banner2",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/imgs/slide-banner/img2.jpeg",
+            "headline": "Olá, o que você está buscando?",
+            "subhead": "**Criar ou migrar seu e-commerce?**",
+            "callToActionMode": "none",
+            "textMode": "rich-text",
+            "blockClass": "info-card-banner-desktop"
+        }
+    },
+    "info-card#banner-desktop3": {
+        "props": {
+            "id": "info-card-banner3",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/imgs/slide-banner/img3.jpeg",
+            "headline": "Olá, o que você está buscando?",
+            "subhead": "**Criar ou migrar seu e-commerce?**",
+            "callToActionMode": "none",
+            "textMode": "rich-text",
+            "blockClass": "info-card-banner-desktop"
+        }
+    },
+    "info-card#banner-desktop4": {
+        "props": {
+            "id": "info-card-banner4",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/imgs/slide-banner/img4.jpeg",
+            "headline": "Olá, o que você está buscando?",
+            "subhead": "**Criar ou migrar seu e-commerce?**",
+            "callToActionMode": "none",
+            "textMode": "rich-text",
+            "blockClass": "info-card-banner-desktop"
+        }
+    }
+}

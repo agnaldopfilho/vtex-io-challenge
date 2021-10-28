@@ -1,0 +1,57 @@
+{
+    "responsive-layout.desktop#newsletter-desktop": {
+        "children": [
+            "flex-layout.row#newsletter-desktop"
+        ]
+    },
+    "flex-layout.row#newsletter-desktop": {
+        "children": [
+            "flex-layout.col#newsletter-desktop"
+        ],
+        "props": {
+            "blockClass": "container-newsletter-desktop"
+        }
+    },
+    "flex-layout.col#newsletter-desktop": {
+        "children": [
+            "rich-text#title-newsletter-desktop",
+            "newsletter-form#newsletter-form-desktop"
+        ]
+    },
+    "rich-text#title-newsletter-desktop": {
+        "props": {
+            "text": "### Participe de nossas news com promoções e novidades!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text-newsletter-desktop"
+        }
+    },
+    "newsletter-form#newsletter-form-desktop": {
+        "children": [
+            "newsletter-input-name#input-name-desktop",
+            "newsletter-input-email#input-email-desktop",
+            "newsletter-submit#submit-desktop"
+        ],
+        "props": {
+            "blockClass": "newsletter-form-desktop"
+        }
+    },
+    "newsletter-input-name#input-name-desktop": {
+        "props": {
+            "placeholderText": "Digite seu nome",
+            "blockClass": "input-name-desktop"
+        }
+    },
+    "newsletter-input-email#input-email-desktop": {
+        "props": {
+            "placeholderText": "Digite seu email",
+            "blockClass": "input-email-desktop"
+        }
+    },
+    "newsletter-submit#submit-desktop": {
+        "props": {
+            "submitButtonLabel": "Eu quero!",
+            "blockClass": "submit-desktop"
+        }
+    }
+}

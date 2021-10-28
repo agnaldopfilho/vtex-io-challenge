@@ -1,0 +1,7 @@
+.openIconContainer--drawer-mobile{
+    width: min-content !important;
+    padding: 0;
+}
+.menuIcon--drawer-mobile{
+    margin-left: 20px;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(assets/fonts/Nunito/Nunito-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(assets/fonts/Lato/Lato-Regular.ttf);
+}

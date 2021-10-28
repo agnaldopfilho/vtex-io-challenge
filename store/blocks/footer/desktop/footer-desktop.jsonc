@@ -1,0 +1,93 @@
+{
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#footer-desktop"
+        ]
+    },
+    "flex-layout.row#footer-desktop": {
+        "children": [
+            "flex-layout.col#location-desktop",
+            "flex-layout.col#contato-desktop",
+            "image#logos-powered-by-desktop"
+        ],
+        "props": {
+            "blockClass": "footer-container-desktop"
+        }
+    },
+    "flex-layout.col#location-desktop": {
+        "children": [
+            "rich-text#location-title-desktop",
+            "rich-text#location-info-desktop"
+        ],
+        "props": {
+            "blockClass": "col-location-desktop"
+        }
+    },
+    "rich-text#location-title-desktop": {
+        "props": {
+            "text": "### Localização",
+            "blockClass": "title-location-desktop"
+        }
+    },
+    "rich-text#location-info-desktop": {
+        "props": {
+            "text": "#### Avenida Andrômeda, 2000. Bloco 6 e 8 \n #### Alphavile SP \n #### brasil@corebiz.ag \n #### +55 11 3090 1039",
+            "blockClass": "info-location-desktop"
+        }
+    },
+    "flex-layout.col#contato-desktop": {
+        "children": [
+            "link#contato-desktop",
+            "link#consultor-desktop"
+        ],
+        "props": {
+            "blockClass": "col-contato-desktop"
+        }
+    },
+    "link#contato-desktop": {
+        "children": [
+            "rich-text#text-contato-desktop"
+        ],
+        "props": {
+            "blockClass": "button-link-contato-desktop",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "regular"
+            },
+            "href": "/"
+        }
+    },
+    "link#consultor-desktop": {
+        "children": [
+            "rich-text#text-consultor-desktop"
+        ],
+        "props": {
+            "blockClass": "button-link-contato-desktop",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "regular"
+            },
+            "href": "/"
+        }
+    },
+    "rich-text#text-contato-desktop": {
+        "props": {
+            "text": "![Contato Icon](assets/imgs/footer/icon-contato.svg) ENTRE EM CONTATO",
+            "blockClass": "text-contato-desktop"
+        }
+    },
+    "rich-text#text-consultor-desktop": {
+        "props": {
+            "text": "![Consultor Icon](assets/imgs/footer/icon-consultor.svg) FALE COM O NOSSO \n CONSULTOR ONLINE",
+            "blockClass": "text-consultor-desktop"
+        }
+    },
+    "image#logos-powered-by-desktop": {
+        "props": {
+            "src": "assets/imgs/footer/logos.svg",
+            "blockClass": "logos-powered-by-desktop"
+        }
+    }
+}

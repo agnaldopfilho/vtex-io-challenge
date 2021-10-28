@@ -1,0 +1,79 @@
+{
+    "responsive-layout.mobile#banner-mobile": {
+        "children": [
+            "slider-layout#slider-banner-mobile"
+        ]
+    },
+    "slider-layout#slider-banner-mobile": {
+        "children": [
+            "info-card#banner-mobile1",
+            "info-card#banner-mobile2",
+            "info-card#banner-mobile3",
+            "info-card#banner-mobile4"
+        ],
+        "props": {
+            "itemsPerPage": {
+                "mobile": 1,
+                "tablet": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnhover": true
+            },
+            "showNavigationArrows": "never",
+            "blockClass": "slider-banner-mobile"
+        }
+    },
+    "info-card#banner-mobile1": {
+        "props": {
+            "id": "info-card-banner1",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/imgs/slide-banner/img1.jpeg",
+            "headline": "Olá, o que você está buscando?",
+            "subhead": "**Criar ou migrar seu e-commerce?**",
+            "callToActionMode": "none",
+            "textMode": "rich-text",
+            "blockClass": "info-card-banner-mobile"
+        }
+    },
+    "info-card#banner-mobile2": {
+        "props": {
+            "id": "info-card-banner2",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/imgs/slide-banner/img2.jpeg",
+            "headline": "Olá, o que você está buscando?",
+            "subhead": "**Criar ou migrar seu e-commerce?**",
+            "callToActionMode": "none",
+            "textMode": "rich-text",
+            "blockClass": "info-card-banner-mobile"
+        }
+    },
+    "info-card#banner-mobile3": {
+        "props": {
+            "id": "info-card-banner3",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/imgs/slide-banner/img3.jpeg",
+            "headline": "Olá, o que você está buscando?",
+            "subhead": "**Criar ou migrar seu e-commerce?**",
+            "callToActionMode": "none",
+            "textMode": "rich-text",
+            "blockClass": "info-card-banner-mobile"
+        }
+    },
+    "info-card#banner-mobile4": {
+        "props": {
+            "id": "info-card-banner4",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/imgs/slide-banner/img4.jpeg",
+            "headline": "Olá, o que você está buscando?",
+            "subhead": "**Criar ou migrar seu e-commerce?**",
+            "callToActionMode": "none",
+            "textMode": "rich-text",
+            "blockClass": "info-card-banner-mobile"
+        }
+    }
+}

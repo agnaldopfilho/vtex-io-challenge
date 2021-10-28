@@ -1,0 +1,34 @@
+.wrapper--title-location-mobile, .wrapper--info-location-mobile, .link--info-location-mobile{
+    color: #fff;
+    text-decoration: none;
+}
+.heading--title-location-mobile{
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 4px solid #fff;
+    margin: 27px 0 0 0;
+}
+.heading--info-location-mobile{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.wrapper--text-contato-mobile .paragraph, .wrapper--text-consultor-mobile .paragraph{
+    margin: 0;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+}
+.image--text-contato-mobile{
+    width: 17px;
+    height: 13px;
+    margin-right: 19px;
+}
+.image--text-consultor-mobile{
+    width: 17px;
+    height: 20px;
+    margin-right: 19px;
+}

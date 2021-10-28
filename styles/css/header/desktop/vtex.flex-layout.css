@@ -1,0 +1,5 @@
+.flexRowContent--main-header-desktop{
+    background-color: #fff;
+    justify-content: space-between;    
+    align-items: center;
+}

@@ -1,0 +1,66 @@
+{
+    "header-layout.mobile": {
+        "children": [
+            "sticky-layout#mobile"
+        ]
+    },
+    "sticky-layout#mobile": {
+        "children": [
+            "flex-layout.row#header-mobile"
+        ]
+    },
+    "flex-layout.row#header-mobile": {
+        "children": [
+            "flex-layout.row#top-header-mobile",
+            "flex-layout.row#container-search-bar"
+        ],
+        "props": {
+            "blockClass": "main-header-mobile",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#top-header-mobile": {
+        "children": [
+            "drawer#mobile",
+            "logo#mobile",
+            "minicart.v2#mobile"
+        ],
+        "props": {
+            "blockClass": "top-header-mobile"
+        }
+    },
+    "flex-layout.row#container-search-bar": {
+        "children": [
+            "search-bar#mobile"
+        ],
+        "props": {
+            "blockClass": "container-search-bar-mobile"
+        }
+    },
+    "logo#mobile": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "assets/imgs/logo-corebiz-preto-cinza.svg",
+            "blockClass": "logo-mobile"
+        }
+    },
+    "drawer#mobile": {
+        "props": {
+            "blockClass": "drawer-mobile"
+        }
+    },
+    "minicart.v2#mobile": {
+        "props": {
+            "blockClass": "minicart-mobile"
+        }
+    },
+    "search-bar#mobile": {
+        "props": {
+            "placeholder": "O que está procurando?",
+            "blockClass": "search-bar-mobile"
+        }
+    }
+}

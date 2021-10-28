@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.newsletterForm--newsletter-form-desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Lato';
+}
+.nameInputContainer--input-name-desktop :global(.vtex-input) :global(.vtex-input-prefix__group) .input{
+    padding: 17px 0 17px 16px !important;
+}
+.nameInputContainer--input-name-desktop, .emailInputContainer--input-email-desktop{
+    width: 280px;
+    height: 48px;
+    margin-right: 8px;
+}
+.formSubmitContainer--submit-desktop :global(.vtex-button){
+    min-height: 48px;
+    width: 140px;
+    font-size: 14px;
+}

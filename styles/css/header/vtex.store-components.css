@@ -1,0 +1,7 @@
+.autoCompleteOuterContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.searchBarIcon{
+    padding: 0;
+}

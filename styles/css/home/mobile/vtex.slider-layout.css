@@ -1,8 +1,9 @@
-.slide--slider-mais-vendidos-mobile{
-    margin-left: 0 19px;
-    width: 141.8px !important;
-    margin-bottom: 19px;
-}
 .paginationDotsContainer--slider-banner-mobile{
     margin-bottom: 13px;
+}
+.slide--slider-mais-vendidos-mobile{
+    width: 141.8px !important;
+}
+.paginationDotsContainer--slider-mais-vendidos-mobile{
+    bottom: -29.34px;
 }
